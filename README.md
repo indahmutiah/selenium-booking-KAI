@@ -13,7 +13,8 @@ This repo automates the process of booking train tickets on the KAI (Kereta Api 
 
 1. Python 3.x
 2. Selenium Python WebDriver
-3. ChromeDriver (or any preferred browser driver)
+3. Python Virtual Environment
+4. Pytest
 
 ## 🚀 How to Run
 
@@ -28,12 +29,14 @@ venv\Scripts\activate.bat  # Windows
 
 ```bash
 pip install selenium
+
+pip install pytest
 ```
 
 - Run the script using python
 
 ```bash
-python booking.py
+pytest booking.py
 ```
 
 📝 License
